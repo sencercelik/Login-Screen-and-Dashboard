@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+<body>
+    <div class="layout">
+    <aside class="sidebar">
+        <div class="logo">Dashboard</div>
+        <nav class="navbar">
+        <ul>
+            <li><a href="dersProgramlari.html">Ders Programlari</a></li>
+            <li><a href="">Siniflar</a></li>
+            <li><a href="">Program Oluştur</a></li>
+            <li><a href="">Ayarlar</a></li>
+        </ul>
+        </nav>
+        </aside>
+    <main class="main-content">
+    <header class="main-header">
+        <h3 id="userRole">Kullanici rolu </h3>
+        <div class="header-icons">
+            <div class="notification-wrapper">
+                <img src="../images/notification-bell-on-svgrepo-com.svg" alt="notificationBell" class="icon notification-icon">
+                <div class="notification-menu" id="notificationDropDown">
+                    <p class="notification-item">Sinav tarihleri belirlendi</p>
+                    <p class="notification-item">ders programlari guncellendi</p>
+                </div>
+            </div>
+            <div class="userCircle-wrapper">
+                <img src="../images/circle-user-solid-full.svg" alt="userCircle" class="icon userCircle-icon">
+                <div class="userCircle-wrapper" id="userCircleDropDown">
+                    <p class="notification-item" id="logOutBtn">LogOut</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="content">
+        <div class="kpi-wrapper">
+            <div class="kpi-card">
+                <h4>Aktif Dönem</h4>
+                <p>123</p>
+            </div>
+            <div class="kpi-card">
+                <h4>Toplam Açılan Ders Sayısı</h4>
+                <p>123</p>
+            </div>
+            <div class="kpi-card">
+                <h4>Bölüm Sayısı</h4>
+                <p>123</p>
+            </div>
+            <div class="kpi-card">
+                <h4>Çakışma Sayısı</h4>
+                <p>123</p>
+            </div>
+
+        </div>
+    </section>
+    </main>
+    </div>
+
+    <script src="../js/dashboard.js"></script>
+</body>
+</html>
